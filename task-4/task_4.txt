@@ -1,0 +1,9 @@
+for adding new column on bigquery table, I think there are 2 ways to solve it
+
+1. It can be handled by BigQueryOperator Airflow
+for example there is a existing table on bigquery with 3 fields
+and revamp code on task Airflow using BigQueryOperator and then run, field automatically will adding in that table
+
+2. Using bigquery API
+
+
